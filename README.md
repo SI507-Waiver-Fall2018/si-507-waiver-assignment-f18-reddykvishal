@@ -1,6 +1,6 @@
 # 507WaiverFall2017
 
-Submitted by: Kolli Vishal Reddy, uniqname: kvishalr
+# Submitted by: Kolli Vishal Reddy, uniqname: kvishalr
 
 Waiver exam for University of Michigan UMSI course, SI 507. You must complete all 4 parts, and the code for each part must be checked in to github with the name specified for that part. Any other filenames will break our grading system and will be rejected.
 
