@@ -31,7 +31,7 @@ stopwords = ["RT", "http", "https"]
 for tweet in tweets:
 	tweetTokens = nltk.word_tokenize(tweet.text)
 	for word in tweetTokens:
-		if(word[0].isalpha() and (word not in stopwords)):
+		if(word[0].isalpha() and (word not in stopwords) and len(word)>1):
 			validTokens.append(word)
 	noOfRetweets = noOfRetweets + tweet.retweet_count
 	noOfFavs = noOfFavs + tweet.favorite_count
